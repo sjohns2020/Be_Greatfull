@@ -36,7 +36,7 @@ export const FormProvider = ({ children }) => {
             [name]: value
         }))
     }
-
+    // https://www.bezkoder.com/node-js-upload-store-images-mongodb/
 
     const canSubmit = page === Object.keys(title).length - 1
 
